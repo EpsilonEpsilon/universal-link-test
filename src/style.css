@@ -1,0 +1,51 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color-scheme: light dark;
+  line-height: 1.5;
+}
+body {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 16px;
+}
+h2 {
+  margin-top: 32px;
+  font-size: 1.1rem;
+}
+.warn {
+  padding: 12px;
+  border-radius: 8px;
+  background: #f5a62333;
+}
+.hint {
+  font-size: 0.9rem;
+  opacity: 0.75;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th,
+td {
+  text-align: left;
+  padding: 6px 8px;
+  border-bottom: 1px solid #8884;
+  word-break: break-all;
+}
+th {
+  width: 80px;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+li {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  padding: 8px 0;
+}
+li code {
+  flex: 1 1 100%;
+}
